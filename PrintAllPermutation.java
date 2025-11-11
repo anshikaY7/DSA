@@ -1,3 +1,4 @@
+// brute force approach
 public class PrintAllPermutation{
     public static void permute(int[] nums){
         boolean[] used =new boolean[nums.length];
@@ -26,4 +27,5 @@ public class PrintAllPermutation{
         int[] arr={1,2,3};
         permute(arr);
     }
+
 }
